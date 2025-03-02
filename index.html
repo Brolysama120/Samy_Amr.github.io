@@ -2,6 +2,25 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <script>
+        function checkPassword() {
+            var password = prompt("Entrez le mot de passe:");
+            if (password !== "Ymas2004") {
+                alert("Mot de passe incorrect !");
+                window.location.href = "https://www.google.com";
+            }
+        }
+    </script>
+</head>
+<body onload="checkPassword()">
+    <h1>Bienvenue sur mon portfolio</h1>
+    <p>Ce contenu est protégé.</p>
+</body>
+
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" /> 
     <title>Samy Amraoui </title>
